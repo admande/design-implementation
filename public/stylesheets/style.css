@@ -1,0 +1,112 @@
+.top-bar {
+  background-color: #37becc;
+  color: white;
+  height: 75px;
+  padding: 20px;
+}
+
+.top-bar li {
+  background-color: #37becc;
+}
+
+.top-bar li a {
+  background-color: #37becc;
+  color: white;
+}
+
+#apply a {
+  background-color: #ed1a7b;
+}
+
+#submit {
+  background-color: #84ce15;
+  margin-top: 15px;
+}
+
+.contact {
+  background-color: #E5F3F4;
+  position:relative;
+  bottom: 0;
+}
+
+.contact h1 {
+  padding-top: 20px;
+  color: #37becc;
+  font-size: 36px;
+}
+
+
+.contact-pee {
+  height: 10px;
+  margin: none;
+  padding: none;
+  background-color: #E5F3F4;
+  color:#777777;
+  font-size: 15px;
+}
+.contact div {
+  background-color: #E5F3F4;
+}
+
+hr {
+  width: 83%;
+}
+
+.contact_form {
+  padding-top: 20px;
+}
+
+#campus {
+  background-image: url("/images/background-1.jpg");
+  width: auto;
+  height: 375px;
+}
+
+.campus_pee {
+  color: #eeeeee;
+  margin: 0;
+  padding: 0;
+
+}
+
+#campus_h1 {
+  padding-top: 50px;
+  color: #eeeeee;
+  font-size: 36px;
+}
+
+#online_h1 {
+  color: #37becc;
+  padding-top: 20px;
+}
+
+#online_img {
+  width: 75%;
+  display: block;
+}
+
+.online_pee {
+  padding-bottom: 25px;
+  color: #777777;
+}
+
+#online_btn {
+  background-color: #ed1a7b;
+}
+
+#hire {
+  background-image: url("/images/background-2.jpg");
+  width: auto;
+  height: 375px;
+  background-position: 70%;
+}
+
+#partners {
+  background-color: #1c2224;
+}
+
+#partners_h1 {
+  color: #37becc;
+  font-size: 36;
+  padding-top: 25px;
+}
