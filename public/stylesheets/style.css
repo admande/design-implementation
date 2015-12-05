@@ -1,3 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.menu-text {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+}
+
 .top-bar {
   background-color: #37becc;
   color: white;
@@ -25,14 +40,12 @@
 
 .contact {
   background-color: #E5F3F4;
-  position:relative;
-  bottom: 0;
+  text-align: center;
 }
 
 .contact h1 {
   padding-top: 20px;
   color: #37becc;
-  font-size: 36px;
 }
 
 
@@ -72,7 +85,6 @@ hr {
 #campus_h1 {
   padding-top: 50px;
   color: #eeeeee;
-  font-size: 36px;
 }
 
 #online_h1 {
@@ -92,21 +104,54 @@ hr {
 
 #online_btn {
   background-color: #ed1a7b;
+  margin: 20px;
 }
 
 #hire {
   background-image: url("/images/background-2.jpg");
   width: auto;
-  height: 375px;
-  background-position: 70%;
+  height: 325px;
+  background-position: 50%;
 }
 
 #partners {
   background-color: #1c2224;
+  overflow: hidden;
 }
 
 #partners_h1 {
   color: #37becc;
-  font-size: 36;
   padding-top: 25px;
+}
+
+.box {
+  margin: 20px 0px;
+}
+
+.partner {
+  background-color: #272C2E;
+}
+
+.box p {
+  background-color: #272C2E;
+  padding: 0 10px 10px 10px;
+  margin: 5px;
+  color: #777777;
+}
+
+.box img {
+  background-color: #272C2E;
+}
+
+.company {
+  padding: 10px;
+  background-color: #272C2E;
+}
+
+.string {
+  font-family: Arial, sans-serif;
+}
+
+.columns.text-left.button.success#submit {
+  margin-top: 0px;
 }

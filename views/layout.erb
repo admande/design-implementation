@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Foundation Funtimes</title>
+    <title>LaunchAcademy</title>
     <link rel="stylesheet" href="/stylesheets/foundation.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
@@ -21,30 +21,33 @@
         </ul>
     </div>
   </div>
+
     <%= yield %>
 
     <div class="contact">
-      <center><h1>Contact Us</h1>
+
+      <h1 class="medium-12 columns">Contact Us</h1>
+
         <hr>
         <p class="contact-pee">If you have questions or just want to say "Hi," drop us a message!</p>
         <p class="contact-pee">We'd love to hear from you.</p>
-      </center>
+
       <div class="contact_form">
         <div class="columns medium-6">
           <input class="string required" placeholder="First Name" type="text" name="contact[first_name]" id="contact_first_name">
         </div>
         <div class="columns medium-6">
-          <input class="string required" placeholder="Last Name" type="text" name="contact[first_name]" id="contact_first_name">
+          <input class="string required" placeholder="Last Name" type="text" name="contact[last_name]" id="contact_last_name">
         </div>
         <div class="columns medium-6">
-          <input class="string required" placeholder="Email" type="text" name="contact[first_name]" id="contact_first_name">
+          <input class="string required" placeholder="Email" type="text" name="contact[email]" id="contact_email">
         </div>
         <div class="columns medium-6">
-          <input class="string required" placeholder="Phone" type="text" name="contact[first_name]" id="contact_first_name">
+          <input class="string required" placeholder="Phone" type="text" name="contact[phone]" id="conact_phone">
         </div>
 
         <div class="columns medium-12">
-          <input class="string required" placeholder="What's on your mind?" type="text" name="contact[first_name]" id="contact_first_name">
+          <input class="string required" placeholder="What's on your mind?" type="text" name="contact[thoughts]" id="contact_thoughts">
         </div>
 
         <div class="columns text-left">
